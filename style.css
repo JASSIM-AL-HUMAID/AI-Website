@@ -433,6 +433,7 @@ header a:hover {
     top: 5%;
     left: 5%;
     font-size: 35px;
+    text-wrap: nowrap;
 }
 
 .features-card p {
@@ -1292,6 +1293,9 @@ footer .box-icons {
     }
     .features-card {
         min-width: 350px;
+    }
+    .features-card h2 {
+        font-size: 30px;
     }
     .features-section h1 {
         font-size: 30px;
