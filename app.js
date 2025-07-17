@@ -37,3 +37,15 @@ generativeIcons.forEach((el) => {
         }
     });
 });
+const sidebar = document.querySelector(".sidebar");
+const menueIcon = document.querySelector(".menu-icon");
+const closeSidebar = document.querySelector(".sidebar .close-icon");
+
+menueIcon.addEventListener("click", () => {
+    sidebar.classList.remove("close-sidebar");
+    sidebar.classList.add("open-sidebar");
+});
+closeSidebar.addEventListener("click", () => {
+    sidebar.classList.remove("open-sidebar");
+    sidebar.classList.add("close-sidebar");
+});
